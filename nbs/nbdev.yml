@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "kedro-debug-runner"
+  site-url: "https://noklam.github.io/kedro-debug-runner"
+  description: "A runner for debugging and development workflow"
+  repo-branch: main
+  repo-url: "https://github.com/noklam/kedro-debug-runner"
