@@ -5,4 +5,12 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://noklam.github.io',
                 'git_url': 'https://github.com/noklam/kedro-debug-runner',
                 'lib_path': 'kedro_debug_runner'},
-  'syms': {'kedro_debug_runner.core': {'kedro_debug_runner.core.foo': ('core.html#foo', 'kedro_debug_runner/core.py')}}}
+  'syms': { 'kedro_debug_runner.core': { 'kedro_debug_runner.core.DebugRunner': ('core.html#debugrunner', 'kedro_debug_runner/core.py'),
+                                         'kedro_debug_runner.core.DebugRunner._run': ( 'core.html#debugrunner._run',
+                                                                                       'kedro_debug_runner/core.py'),
+                                         'kedro_debug_runner.core.DebugRunner.run': ( 'core.html#debugrunner.run',
+                                                                                      'kedro_debug_runner/core.py'),
+                                         'kedro_debug_runner.core.GreedySequentialRunner': ( 'core.html#greedysequentialrunner',
+                                                                                             'kedro_debug_runner/core.py'),
+                                         'kedro_debug_runner.core.GreedySequentialRunner.run': ( 'core.html#greedysequentialrunner.run',
+                                                                                                 'kedro_debug_runner/core.py')}}}
